@@ -19,7 +19,7 @@ async def get_cities():
 
 
 @app.post("/cities/", response_model=City)
-async def create_city(newcity=City):
+async def create_city(newcity: City):
     name = newcity.name
     timezone = newcity.timezone
 
