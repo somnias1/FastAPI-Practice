@@ -29,4 +29,4 @@ async def create_city(newcity: City):
 
 
 if __name__ == "__main__":
-    uvicorn.run("Ejercicio1:app")
+    uvicorn.run("BaseAPI:app")
